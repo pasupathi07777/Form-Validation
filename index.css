@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  antiquewhite;
+    padding: 10px;
+
+}
+h1{
+    text-align: center;
+
+}
+form{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    font-size: 16px;
+ 
+  
+    
+  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+}
+form input::placeholder{
+    text-transform: capitalize;
+}
+small{
+   /* margin-bottom: 5px; */
+   margin-left: 5px;
+   text-transform: capitalize;
+   height: 20px;
+}
+
+form .mobile-number,form .name,form .email{
+    
+    border-radius: 5px;
+    border:none;
+    outline: none;
+}
+form .mobile-number:focus,form .name:focus,form .email:focus{
+    
+    
+ 
+    outline: none !important;
+}
+form .mobile-number:active,form .name:active,form .email:active{
+    
+    
+ 
+    outline: none !important;
+}
+.btn{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+ 
+    margin: auto;
+   
+    /* margin: 0; */
+    background-color: #74b9ff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.e-name, .e-number, .e-email{
+    /* display: none; */
+    color: #fff;
+    font-size: 12px;
+
+}
+.box{
+    display: flex ;
+    flex-direction: column;
+    height: 77px;
+   
+}
